@@ -1,0 +1,10 @@
+name: Chatbot API
+type: module
+description: API for chatbot and Personal Assistant
+core_version_requirement: ^8 || ^9
+package: Chatbot
+
+# Information added by Drupal.org packaging script on 2020-09-14
+version: '8.x-2.0-rc2'
+project: 'chatbot_api'
+datestamp: 1600091024

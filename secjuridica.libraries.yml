@@ -1,0 +1,6 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/estilos_m.css: {}
+      css/estilos_j.css: {}
