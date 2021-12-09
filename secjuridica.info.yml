@@ -1,0 +1,22 @@
+name: secjuridica
+type: theme
+description: 'secjuridica subtheme based on Bootstrap 4 theme.'
+core: 8.x
+core_version_requirement: '^8 || ^9'
+'base theme': bootstrap4
+stylesheets-remove:
+  - '@bootstrap4/css/style.css'
+libraries:
+  - secjuridica/global-styling
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  destacado: 'Destacado'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer_r: 'Footer Rojo'
+  footer: Footer
